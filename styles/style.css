@@ -183,3 +183,77 @@ select {
     font-weight: 400;
     padding: 20px;
 }
+
+/* third-part-design */
+
+.third-part {
+    text-align: center;
+}
+
+.third-part h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.third-part p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+/* collage section */
+.img-collage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.first-collage {
+    display: flex;
+    gap: 24px;
+}
+
+.first-collage img {
+    width: 573px;
+    height: 300px;
+}
+
+.second-collage {
+    display: flex;
+    gap: 24px;
+}
+
+#kashmir {
+    width: 274px;
+    height: 286px;
+}
+
+#america {
+    width: 474px;
+    height: 286px;
+}
+
+#srilanka {
+    width: 374px;
+    height: 286px;
+}
+
+#bangladesh {
+    width: 473px;
+    height: 300px;
+}
+
+#bandar {
+    width: 673px;
+    height: 300px;
+}
