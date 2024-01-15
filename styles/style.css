@@ -1,12 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body {
     font-family: 'Mulish';
-    margin: 50px 120px;
 }
 
 header {
@@ -62,6 +61,8 @@ header {
     border-radius: 16px;
     text-align: center;
     margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .form-part {
@@ -86,7 +87,7 @@ header {
     border: 0;
     gap: 24px;
     text-align: left;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 .find-now-btn {
@@ -119,6 +120,7 @@ select {
     /* box-sizing: border-box; Include padding in the total width */
     /* padding: 105px 180px; */
 }
+
 .first-part-h1 {
     color: #FFF;
     font-size: 64px;
@@ -137,4 +139,47 @@ select {
     padding-left: 240px;
     padding-right: 240px;
     padding-bottom: 40px;
+}
+
+.read-btn {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #17908c;
+    border: 0;
+    color: #FFF;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.second-part {
+    display: flex;
+    /* margin: auto; */
+    margin-top: 100px;
+    padding: 100px 180px 100px 180px;
+    margin: auto;
+    text-align: start;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second-part img {
+    width: 540px;
+    height: 550px;
+    /* padding-right: 120px; */
+}
+
+.second-part h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.second-part-des {
+    max-width: 540px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px;
 }
