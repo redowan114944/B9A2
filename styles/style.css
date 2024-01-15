@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish';
+    margin: 50px 120px;
+}
+
+header {
+    /* min-width: 1250px; */
+    margin: 0 auto;
+
+}
+
+/* nav-section-design */
+
+/* .nav-bar {
+    display: flex;
+
+}
+
+.logo-img {
+    width: 80px;
+}
+
+.title-part {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.items-part {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    gap: 44px;
+    margin-right: 0px;
+}
+
+.items-part a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.hover-add:hover {
+    color: #17908c;
+} */
+
+/* first part design */
+
+.first-part {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group 13 (1) (1).png');
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    text-align: center;
+    margin: auto;
+}
+
+.form-part {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    gap: 24px;
+    margin: 10px;
+    padding: 16px;
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+
+
+.form-part input {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    gap: 24px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.find-now-btn {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #17908c;
+    border: 0;
+    color: #FFF;
+}
+
+.add-arrow {
+    display: flex;
+    gap: 24px;
+}
+
+select {
+    width: 174px;
+    height: 52px;
+    border: 0;
+    border-radius: 8px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+.first-part-des {
+    width: 100%;
+    /* box-sizing: border-box; Include padding in the total width */
+    /* padding: 105px 180px; */
+}
+.first-part-h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-top: 5px;
+    padding-top: 106px;
+    padding-bottom: 0px;
+}
+
+.first-part-para {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 24px;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-bottom: 40px;
+}
