@@ -4,19 +4,19 @@
         background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group 13 (1) (1).png');
         background-size: cover;
         background-position: center;
+        margin: auto;
     }
 
     .form-part {
-
         display: flex;
         width: 287px;
         padding: 16px;
         flex-direction: column;
         align-items: center;
         gap: 16px;
+        margin: auto;
         margin-bottom: 10px;
         margin-top: 10px;
-
 
     }
 
@@ -93,9 +93,24 @@
         padding: 0px;
     }
 
+
+    .image-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        z-index: 1;
+    }
+
     .img-collage,
     .first-collage,
-    .second-collage {
+    .second-collage,
+    .third-collage {
         flex-direction: column;
         align-items: center;
     }
@@ -113,7 +128,8 @@
 
     .fourth-part {
         text-align: center;
-        margin: 20px;
+        margin: 20px 10px;
+        /* Adjust margins as needed */
     }
 
     .fourth-part h1 {
@@ -134,14 +150,12 @@
         flex-direction: column;
         gap: 24px;
         margin-bottom: 24px;
-        /* align-items: center; */
-        justify-content: center;
     }
 
     .first-card img,
     .second-card img,
     .third-card img {
-        width: 64px;
+        width: auto;
         height: 64px;
         padding: 32px;
         padding-bottom: 0px;
@@ -167,14 +181,13 @@
         padding-top: 0px;
     }
 
-
-
     .first-card {
         width: 335px;
         height: 289px;
         border-radius: 16px;
         border: 1px solid rgba(251, 181, 99, 0.20);
         background: rgba(251, 181, 99, 0.05);
+        margin: 0 auto;
     }
 
     .second-card {
@@ -183,14 +196,134 @@
         border-radius: 16px;
         border: 1px solid rgba(41, 206, 246, 0.20);
         background: rgba(41, 206, 246, 0.05);
+        margin: 0 auto;
     }
 
     .third-card {
-        width: 335px;
+        max-width: 335px;
         height: 289px;
         border-radius: 16px;
         border: 1px solid rgba(233, 68, 68, 0.20);
         background: rgba(233, 68, 68, 0.05);
         margin: 0 auto;
     }
+
+    .fifth-part {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 20px;
+        /* Add some top margin to create space */
+    }
+
+    .fifth-form {
+        width: 335px;
+        height: 353px;
+        margin-top: 400px;
+    }
+
+    .fifth-form h1 {
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .fifth-form p {
+        color: #5A5A5D;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .fifth-form input {
+        width: 288px;
+        height: 52px;
+        /* margin: 200px; */
+    }
+
+    .fifth-form hr {
+        width: 288px;
+        height: 1px;
+    }
+
+    .sub-btn {
+        border-radius: 8px;
+        background: #17908c;
+        width: 288px;
+        height: 52px;
+        border: none;
+        color: #FFF;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 18px;
+    }
+
+    .discount-tag img {
+        width: 335px;
+        height: 300px;
+    }
+
+    .dis-btn {
+        position: absolute;
+        top: 75%;
+        left: 54%;
+        transform: rotate(-19.628deg);
+        background-color: #17908c;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 10px;
+        width: 150px;
+        height: 50px;
+    }
+
+    footer {
+        background: rgba(19, 19, 24, 0.05);
+        margin-top: 100px;
+        width: 100%;
+        /* height: 309px; */
+        margin-top: 400px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .title-name {
+        color: #131318;
+        font-size: 21.543px;
+        font-weight: 800;
+        margin-top: 10px;
+    }
+
+    .footer-title img {
+        margin-top: 10px;
+    }
+
+    footer p {
+        color: #5A5A5D;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        margin: 40px;
+    }
+    .footer-logo {
+        justify-content: center;
+        margin: 0px;
+        display: flex;
+        gap: 25px;
+        margin-bottom: 50px;
+    }
+    .footer-logo a img {
+        width: 30px;
+        height: 30px;
+    }
+    .copywrite{
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+
+
+
 }
