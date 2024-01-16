@@ -477,6 +477,15 @@ select {
     height: 100px;
 }
 
+.google-map-add{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.google-map-add h1{
+    padding-bottom: 20px;
+}
+
 footer {
     background: rgba(19, 19, 24, 0.05);
     margin-top: 100px;
