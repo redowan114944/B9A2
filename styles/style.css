@@ -16,9 +16,20 @@ header {
 
 /* nav-section-design */
 nav {
-    background-color: bisque;
+    display: flex;
     width: 100%;
     height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 44px;
 }
 
 label.logo-nav {
@@ -27,7 +38,7 @@ label.logo-nav {
     padding: 0 130px 0 5px;
 }
 
-.nav-bar-icon{
+.nav-bar-icon {
     display: flex;
     align-items: center;
     text-align: center;
@@ -36,6 +47,8 @@ label.logo-nav {
 .nav-option li a {
     text-decoration: none;
 }
+
+
 
 /* first part design */
 
@@ -292,6 +305,10 @@ select {
 
 .fourth-part h1 {
     padding-bottom: 24px;
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 .fourth-part p {
